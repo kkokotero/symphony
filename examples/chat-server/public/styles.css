@@ -1,0 +1,185 @@
+:root {
+	--primary: #2563eb;
+	--primary-light: #dbeafe;
+	--border: #e5e7eb;
+	--bg: #f9fafb;
+	--text: #111827;
+	--muted: #6b7280;
+	--radius: 8px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	margin: 0;
+	font-family: system-ui, sans-serif;
+	color: var(--text);
+	background: var(--bg);
+}
+
+/* --- Layout --- */
+.chat-container {
+	flex: 3;
+	display: flex;
+	flex-direction: column;
+	padding: 1rem 1.25rem;
+	overflow-y: auto;
+}
+
+.rooms-panel {
+	flex: 1;
+	padding: 1rem;
+	background: white;
+	overflow-y: auto;
+	border: 1px solid var(--border);
+	margin: 20px 10px;
+	border-radius: var(--radius);
+}
+
+@media (max-width: 768px) {
+	body {
+		flex-direction: column;
+	}
+
+	.rooms-panel {
+		order: -1;
+		border-left: none;
+		border-bottom: 1px solid var(--border);
+	}
+}
+
+/* --- Titles --- */
+h3 {
+	margin-top: 0;
+	border-bottom: 2px solid var(--border);
+	padding-bottom: 0.5rem;
+	font-size: 1.1rem;
+}
+
+/* --- Lists --- */
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	cursor: pointer;
+}
+
+/* --- Room list --- */
+#room-list li {
+	padding: 0.4rem 0.6rem;
+	margin-bottom: 0.25rem;
+	border-radius: var(--radius);
+	transition: background 0.15s;
+}
+
+#room-list li:hover {
+	background: var(--primary-light);
+}
+
+#room-list li.active {
+	background: var(--primary);
+	color: white;
+	font-weight: 500;
+}
+
+/* --- Chat area --- */
+#chat-list {
+	flex: 1;
+	overflow-y: auto;
+	border: 1px solid var(--border);
+	border-radius: var(--radius);
+	padding: 0.75rem;
+	margin-bottom: 0.75rem;
+	background: white;
+}
+
+#chat-list li {
+	margin-bottom: 0.5rem;
+	word-wrap: break-word;
+}
+
+/* Chat bubbles */
+.msg {
+	padding: 0.4rem 0.6rem;
+	border-radius: var(--radius);
+	display: inline-block;
+	max-width: 75%;
+}
+
+.msg.you {
+	background: var(--primary);
+	color: white;
+	align-self: flex-end;
+}
+
+.msg.other {
+	background: var(--primary-light);
+	color: var(--text);
+}
+
+/* --- Form --- */
+form {
+	display: flex;
+	gap: 0.5rem;
+}
+
+input[type="text"] {
+	flex: 1;
+	padding: 0.5rem 0.75rem;
+	border: 1px solid var(--border);
+	border-radius: var(--radius);
+	font-size: 1rem;
+}
+
+button {
+	background: var(--primary);
+	color: white;
+	border: none;
+	border-radius: var(--radius);
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+
+button:hover {
+	background: #1d4ed8;
+}
+
+/* --- Room id input --- */
+#room-id {
+	width: 100%;
+	padding: 0.5rem 0.75rem;
+	margin-bottom: 0.5rem;
+	border-radius: var(--radius);
+	border: 1px solid var(--border);
+}
+
+/* --- Member list --- */
+#member-list {
+	margin-bottom: 1rem;
+	font-size: 0.9rem;
+	color: var(--muted);
+}
+
+/* --- Scrollbars --- */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #d1d5db;
+	border-radius: 4px;
+}
+
+#room-id {
+	max-height: 40px;
+}
