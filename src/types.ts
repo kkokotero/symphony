@@ -144,7 +144,7 @@ export type Plugin<T> = (plugin: T) => MaybePromise<unknown>;
  * Default temporary folder path used by the framework
  * for storing runtime data, cache, or temporary files.
  */
-export const DEFAULT_TEMP_PATH = resolve(process.cwd(), '.symphony');
+export const DEFAULT_TEMP_PATH = resolve(process.cwd(), '.synfonia');
 
 /**
  * Aliases for controller types to improve semantic readability.

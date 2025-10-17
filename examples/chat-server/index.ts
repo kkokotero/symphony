@@ -1,5 +1,5 @@
 import { resolve } from 'node:path';
-import { Server } from 'symphony/http';
+import { Server } from 'synfonia/http';
 import { roomRoutes } from './routes/room';
 
 const server = new Server({ roomCleanupDelay: 5000 });

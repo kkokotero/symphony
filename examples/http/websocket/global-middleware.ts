@@ -1,5 +1,5 @@
-import { Server } from 'symphony/http';
-import type { WSMiddleware } from 'symphony/types';
+import { Server } from 'synfonia/http';
+import type { WSMiddleware } from 'synfonia/types';
 
 const server = new Server();
 

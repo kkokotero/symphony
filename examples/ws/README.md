@@ -1,6 +1,6 @@
 # WebSocket Examples Collection
 
-This directory contains comprehensive examples demonstrating Symphony's WebSocket server capabilities, from basic connections to advanced room management and plugin systems.
+This directory contains comprehensive examples demonstrating Synfonia's WebSocket server capabilities, from basic connections to advanced room management and plugin systems.
 
 ## Examples Overview
 

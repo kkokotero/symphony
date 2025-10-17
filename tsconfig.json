@@ -30,7 +30,7 @@
 
     "paths": {
       "@src/*": ["./src/*"],
-      "symphony/*": ["./src/*"],
+      "synfonia/*": ["./src/*"],
       "@http/*": ["./src/http/*"],
       "@plugins/*": ["./src/plugins/*"],
       "@routing/*": ["./src/routing/*"],

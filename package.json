@@ -1,11 +1,11 @@
 {
-	"name": "symphony",
+	"name": "synfonia",
 	"version": "1.0.0",
-	"description": "Symphony is a TypeScript framework for creating HTTP and WebSocket servers under a single API.",
+	"description": "Synfonia is a TypeScript framework for creating HTTP and WebSocket servers under a single API.",
 	"type": "module",
 	"private": false,
 	"keywords": [
-		"symphony",
+		"synfonia",
 		"lightweight",
 		"web",
 		"http",
@@ -24,13 +24,13 @@
 		"access": "public"
 	},
 	"license": "MIT",
-	"homepage": "https://github.com/kkokotero/symphony#readme",
+	"homepage": "https://github.com/kkokotero/synfonia#readme",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/kkokotero/symphony"
+		"url": "https://github.com/kkokotero/synfonia"
 	},
 	"bugs": {
-		"url": "https://github.com/kkokotero/symphony/issues"
+		"url": "https://github.com/kkokotero/synfonia/issues"
 	},
 	"typesVersions": {
 		"*": {
@@ -51,11 +51,6 @@
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"exports": {
-		".": {
-			"import": "./dist/index.js",
-			"require": "./dist/index.js",
-			"types": "./dist/index.d.ts"
-		},
 		"./ws": {
 			"import": "./dist/ws/index.js",
 			"require": "./dist/ws/index.js",

@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-This policy defines the guidelines for the **reception**, **assessment**, **management**, and **responsible disclosure** of security vulnerabilities in products and services developed by **Symphony**.
+This policy defines the guidelines for the **reception**, **assessment**, **management**, and **responsible disclosure** of security vulnerabilities in products and services developed by **Synfonia**.
 Its purpose is to ensure clear communication with researchers, users, and stakeholders, while maintaining the security and integrity of the software.
 
 ---
@@ -11,7 +11,7 @@ Its purpose is to ensure clear communication with researchers, users, and stakeh
 
 This policy applies to:
 
-* All software developed and officially maintained by **Symphony**.
+* All software developed and officially maintained by **Synfonia**.
 * Services, APIs, libraries, and related components.
 * Technical documentation and associated tools.
 
@@ -23,7 +23,7 @@ It does **not** apply to third-party software not managed by our team, although 
 
 **Reporting Channels:**
 
-* **GitHub (public)**: Open an *issue* in the official repository [Symphony Issues](https://github.com/kkokotero/symphony/issues) for non-sensitive issues.
+* **GitHub (public)**: Open an *issue* in the official repository [Synfonia Issues](https://github.com/kkokotero/synfonia/issues) for non-sensitive issues.
 
 **Response Times:**
 
@@ -62,7 +62,7 @@ Our workflow follows **ISO/IEC 30111** guidelines:
 
 To reduce security risks, we recommend:
 
-* Always maintain the latest stable version of **Symphony**.
+* Always maintain the latest stable version of **Synfonia**.
 * Enable end-to-end encryption in communications (HTTPS/TLS).
 * Enable **multi-factor authentication (MFA)** on critical accounts.
 * Apply the principle of **least privilege** for permissions.
@@ -76,8 +76,8 @@ To reduce security risks, we recommend:
 
 For any communications regarding vulnerabilities:
 
-* **GitHub**: [https://github.com/kkokotero/symphony/issues](https://github.com/kkokotero/symphony/issues)
-* **Updated security policy**: [Security.md](https://github.com/kkokotero/symphony/blob/main/SECURITY.md)
+* **GitHub**: [https://github.com/kkokotero/synfonia/issues](https://github.com/kkokotero/synfonia/issues)
+* **Updated security policy**: [Security.md](https://github.com/kkokotero/synfonia/blob/main/SECURITY.md)
 
 ---
 
@@ -95,7 +95,7 @@ Here is an **official vulnerability report template** in **Markdown**, aligned w
 
 ---
 
-# Vulnerability Report Template — Symphony
+# Vulnerability Report Template — Synfonia
 
 > **Note:** Do not include sensitive information in public channels.
 
@@ -174,4 +174,4 @@ Here is an **official vulnerability report template** in **Markdown**, aligned w
 ## Confirmation
 
 * [ ] I confirm this report is **original** and not copied from another source.
-* [ ] I agree that **Symphony** will manage this report following the published **Security Policy**.
+* [ ] I agree that **Synfonia** will manage this report following the published **Security Policy**.

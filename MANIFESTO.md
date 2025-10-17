@@ -1,14 +1,14 @@
 # Manifesto
 
-Symphony doesn’t just build servers.
+Synfonia doesn’t just build servers.
 It creates harmony between them.
 
 HTTP and WebSocket are not separate worlds,
-but distinct channels of the same symphony.
+but distinct channels of the same synfonia.
 Every request, every message,
 flows under the same rhythm.
 
-Symphony was born from a simple idea:
+Synfonia was born from a simple idea:
 building a server shouldn’t be complex.
 It should be lightweight, expressive, and easy to extend—
 a server that breathes with the developer,
@@ -20,8 +20,8 @@ Each module knows when to play,
 each plugin can extend the core’s capabilities
 without breaking its simplicity.
 
-The developer doesn’t adapt to Symphony; they conduct it.
-Symphony offers a high-level API,
+The developer doesn’t adapt to Synfonia; they conduct it.
+Synfonia offers a high-level API,
 yet never hides access to its native core.
 You have total control—
 from the routes to the lowest socket.
@@ -44,16 +44,16 @@ Routers, middlewares, and plugins
 aren’t imposed layers,
 they’re musicians performing the same piece.
 
-Symphony doesn’t seek to control your application,
+Synfonia doesn’t seek to control your application,
 but to accompany it.
 To give it rhythm, coherence, and modularity—
-so you can compose your own symphony.
+so you can compose your own synfonia.
 
 Because a server shouldn’t be a black box,
 but a tool that resonates with you.
 Modularity doesn’t divide—it liberates.
 
-Symphony doesn’t compete with complexity;
+Synfonia doesn’t compete with complexity;
 it transforms it into clarity.
 It doesn’t strive to do more,
 but to do it better.
@@ -65,4 +65,4 @@ its main melody.
 
 Where every request is a note,
 every module an instrument,
-and every server, a symphony.
+and every server, a synfonia.

@@ -16,7 +16,7 @@ export default defineConfig({
 	},
 	resolve: {
 		alias: {
-			'symphony': toPosix(resolve(__dirname, 'src')),
+			'synfonia': toPosix(resolve(__dirname, 'src')),
 			'@src': toPosix(resolve(__dirname, 'src')),
 			'@http': toPosix(resolve(__dirname, 'src/http')),
 			'@plugins': toPosix(resolve(__dirname, 'src/plugins')),

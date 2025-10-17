@@ -1,5 +1,5 @@
-import { Server } from 'symphony/http';
-import type { Plugin } from 'symphony/types';
+import { Server } from 'synfonia/http';
+import type { Plugin } from 'synfonia/types';
 
 const server = new Server();
 

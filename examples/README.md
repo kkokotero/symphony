@@ -1,6 +1,6 @@
-# Symphony Examples
+# Synfonia Examples
 
-Welcome to the Symphony framework examples collection! This directory contains practical implementations demonstrating various features and capabilities of the Symphony framework.
+Welcome to the Synfonia framework examples collection! This directory contains practical implementations demonstrating various features and capabilities of the Synfonia framework.
 
 ## Available Examples
 
@@ -45,4 +45,4 @@ We recommend exploring the examples in this order:
 3. Explore **WebSocket** examples for real-time communication
 4. Finally, study the **Chat Server** for a complete application example
 
-Each example is designed to be educational, practical, and easy to understand while showcasing best practices and common patterns in web development with Symphony.
+Each example is designed to be educational, practical, and easy to understand while showcasing best practices and common patterns in web development with Synfonia.

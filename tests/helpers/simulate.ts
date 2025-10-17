@@ -3,7 +3,7 @@ import type { Server } from '@http/index';
 
 /**
  * Realiza una petición HTTP al servidor usando undici.
- * @param server Instancia del servidor Symphony
+ * @param server Instancia del servidor Synfonia
  * @param path Ruta relativa (por ejemplo '/test')
  * @param options Configuración adicional (método, body, headers)
  */

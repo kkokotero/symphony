@@ -1,5 +1,5 @@
 import { parseSocketMessage } from '@src/ws';
-import { Router } from 'symphony/http';
+import { Router } from 'synfonia/http';
 
 export const roomRoutes = new Router({ prefix: 'room' });
 
