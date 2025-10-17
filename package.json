@@ -1,6 +1,7 @@
 {
 	"name": "symphony",
 	"version": "1.0.0",
+	"description": "Symphony is a TypeScript framework for creating HTTP and WebSocket servers under a single API.",
 	"type": "module",
 	"private": false,
 	"keywords": [
