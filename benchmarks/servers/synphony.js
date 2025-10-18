@@ -2,8 +2,8 @@ import { Server } from 'synphony/http';
 
 const app = new Server();
 
-app.get('/', (_, res) => {
-	res.send('Hello world!');
+app.get('/', async (_, res) => {
+	res.send('ok');
 });
 
 app.listen(3000, () => {

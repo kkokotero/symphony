@@ -7,5 +7,5 @@ app.get('/', async () => {
 });
 
 app.listen({ port: 3000 }).then(() => {
-	console.log('Fastify running');
+	console.log('Fastify running on 3000');
 });
