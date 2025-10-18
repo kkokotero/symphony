@@ -1,24 +1,22 @@
-![Synfonia Logo](./misc/banner.png)
-
-# Synfonia
+![Synphony Logo](./misc/banner.svg)
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
-[![Build](https://img.shields.io/github/actions/workflow/status/kkokotero/synfonia/ci.yml)](https://github.com/kkokotero/synfonia/actions)
-[![Stars](https://img.shields.io/github/stars/kkokotero/synfonia?style=social)](https://github.com/kkokotero/synfonia)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/kkokotero/synfonia)](https://github.com/kkokotero/synfonia/pulse)
-[![GitHub last commit](https://img.shields.io/github/last-commit/kkokotero/synfonia)](https://github.com/kkokotero/synfonia/commits/main)
-[![npm version](https://img.shields.io/npm/v/synfonia.svg)](https://www.npmjs.com/package/synfonia)
-[![npm downloads](https://img.shields.io/npm/dm/synfonia)](https://www.npmjs.com/package/synfonia)
-[![Bundle Size](https://img.shields.io/bundlephobia/min/synfonia)](https://bundlephobia.com/result?p=synfonia)
-[![Bundle Size (gzip)](https://img.shields.io/bundlephobia/minzip/synfonia)](https://bundlephobia.com/result?p=synfonia)
+[![Build](https://img.shields.io/github/actions/workflow/status/kkokotero/synphony/ci.yml)](https://github.com/kkokotero/synphony/actions)
+[![Stars](https://img.shields.io/github/stars/kkokotero/synphony?style=social)](https://github.com/kkokotero/synphony)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/kkokotero/synphony)](https://github.com/kkokotero/synphony/pulse)
+[![GitHub last commit](https://img.shields.io/github/last-commit/kkokotero/synphony)](https://github.com/kkokotero/synphony/commits/main)
+[![npm version](https://img.shields.io/npm/v/synphony.svg)](https://www.npmjs.com/package/synphony)
+[![npm downloads](https://img.shields.io/npm/dm/synphony)](https://www.npmjs.com/package/synphony)
+[![Bundle Size](https://img.shields.io/bundlephobia/min/synphony)](https://bundlephobia.com/result?p=synphony)
+[![Bundle Size (gzip)](https://img.shields.io/bundlephobia/minzip/synphony)](https://bundlephobia.com/result?p=synphony)
 
-> **The synfonia between HTTP and WebSocket, written in TypeScript.**
+> **The synphony between HTTP and WebSocket, written in TypeScript.**
 > A unified, modular, and frictionless framework.
 
 ---
 
-**Synfonia** is a **TypeScript** framework for creating **HTTP** and **WebSocket** servers under a single API.
-Designed to be **lightweight, modular, and expressive**, Synfonia doesn’t hide complexity — it organizes it.
+**Synphony** is a **TypeScript** framework for creating **HTTP** and **WebSocket** servers under a single API.
+Designed to be **lightweight, modular, and expressive**, Synphony doesn’t hide complexity — it organizes it.
 
 Its architecture lets you **extend, replace, or create modules** without breaking the simplicity of the design.
 Total control, natural performance, and a modern developer experience.
@@ -27,7 +25,7 @@ Total control, natural performance, and a modern developer experience.
 
 ## Philosophy
 
-Synfonia doesn’t try to hide complexity — it arranges it.
+Synphony doesn’t try to hide complexity — it arranges it.
 It doesn’t lock you into its structure — it lets you compose your own.
 Every module, every request, every connection… flows to the same rhythm.
 
@@ -37,10 +35,10 @@ Minimalism without limits. Efficiency without friction. Freedom without compromi
 
 ## Installation
 
-Install **Synfonia** using npm:
+Install **Synphony** using npm:
 
 ```bash
-npm install synfonia
+npm install synphony
 ```
 
 > Requires **Node.js v18** or higher.
@@ -67,7 +65,7 @@ You can find more examples in [examples](./examples).
 ### Unified example (HTTP + WS)
 
 ```ts
-import { Server } from 'synfonia/http';
+import { Server } from 'synphony/http';
 
 const app = new Server();
 
@@ -88,7 +86,7 @@ app.listen(3000, () => {
 ### Simple HTTP server
 
 ```ts
-import { Server } from 'synfonia/http';
+import { Server } from 'synphony/http';
 
 const server = new Server();
 
@@ -104,7 +102,7 @@ server.listen(3000, () => {
 ### Simple WebSocket server
 
 ```ts
-import { WebSocketServer } from 'synfonia/ws';
+import { WebSocketServer } from 'synphony/ws';
 
 const wss = new WebSocketServer();
 
@@ -125,7 +123,7 @@ wss.listen(8080, () => {
 Got ideas, improvements, or found a bug? Contributions are welcome!
 Here’s how to get started:
 
-1. Check the open [issues](https://github.com/kkokotero/synfonia/issues).
+1. Check the open [issues](https://github.com/kkokotero/synphony/issues).
 2. Fork the repository.
 3. Create a branch for your change:
 
@@ -164,4 +162,4 @@ This project is licensed under the [MIT License](./LICENSE).
 
 ## Manifesto
 
-Read the [Synfonia Manifesto](./MANIFESTO.md) and discover the philosophy behind the code.
+Read the [Synphony Manifesto](./MANIFESTO.md) and discover the philosophy behind the code.

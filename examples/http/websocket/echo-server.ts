@@ -1,5 +1,5 @@
-import { Server } from 'synfonia/http';
-import { parseSocketMessage } from 'synfonia/ws';
+import { Server } from 'synphony/http';
+import { parseSocketMessage } from 'synphony/ws';
 
 const server = new Server();
 

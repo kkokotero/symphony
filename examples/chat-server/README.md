@@ -1,6 +1,6 @@
 # Chat Server Example
 
-A complete real-time chat application built with Synfonia, demonstrating WebSocket integration, room management, and modern web development practices.
+A complete real-time chat application built with Synphony, demonstrating WebSocket integration, room management, and modern web development practices.
 
 ## Features
 
@@ -14,7 +14,7 @@ A complete real-time chat application built with Synfonia, demonstrating WebSock
 
 This example showcases a full-stack chat application with:
 
-- **Backend**: Synfonia HTTP server with WebSocket support
+- **Backend**: Synphony HTTP server with WebSocket support
 - **Frontend**: Vanilla JavaScript with modern CSS styling
 - **Communication**: WebSocket-based real-time messaging
 - **Routing**: RESTful API endpoints for room management

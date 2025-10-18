@@ -1,5 +1,5 @@
-import { Server } from 'synfonia/http';
-import { parseBody } from 'synfonia/plugins';
+import { Server } from 'synphony/http';
+import { parseBody } from 'synphony/plugins';
 
 const server = new Server();
 

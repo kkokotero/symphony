@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "synfonia",
+      "name": "synphony",
       "devDependencies": {
         "@biomejs/biome": "2.1.1",
         "@types/mime-types": "^3.0.1",

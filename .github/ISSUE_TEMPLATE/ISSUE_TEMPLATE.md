@@ -26,7 +26,7 @@ assignees: ""
 
 ## Environment
 
-- Synfonia version: 
+- Synphony version: 
 - OS / Platform: 
 - Browser / Node / Other relevant info: 
 

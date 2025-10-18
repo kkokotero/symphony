@@ -1,4 +1,4 @@
-import { WebSocketServer } from 'synfonia/ws';
+import { WebSocketServer } from 'synphony/ws';
 
 const wss = new WebSocketServer();
 

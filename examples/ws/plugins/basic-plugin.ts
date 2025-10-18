@@ -1,5 +1,5 @@
-import type { Plugin } from 'synfonia/types';
-import { WebSocketServer } from 'synfonia/ws';
+import type { Plugin } from 'synphony/types';
+import { WebSocketServer } from 'synphony/ws';
 
 const wss = new WebSocketServer();
 

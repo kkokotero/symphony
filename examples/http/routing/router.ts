@@ -1,4 +1,4 @@
-import { Router, Server } from 'synfonia/http';
+import { Router, Server } from 'synphony/http';
 
 const server = new Server();
 

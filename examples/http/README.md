@@ -1,13 +1,13 @@
 # HTTP Examples Collection
 
-This directory contains comprehensive examples demonstrating Synfonia's HTTP server capabilities, from basic routing to advanced middleware and plugin systems.
+This directory contains comprehensive examples demonstrating Synphony's HTTP server capabilities, from basic routing to advanced middleware and plugin systems.
 
 ## Examples Overview
 
 ### Core Examples
 
 #### Simple Server (`simple-server.ts`)
-The perfect starting point for understanding Synfonia's HTTP server. Demonstrates basic server setup and route handling.
+The perfect starting point for understanding Synphony's HTTP server. Demonstrates basic server setup and route handling.
 
 **Key Concepts:**
 - Server initialization
