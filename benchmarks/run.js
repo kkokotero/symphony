@@ -40,7 +40,7 @@ async function bench(file, port = 3000) {
   };
 }
 
-const servers = ["synphony.js", "koa.js", "polka.js", "express.js", "fastify.js", "hono.js"];
+const servers = ["synphony.js", "koa.js", "express.js", "fastify.js", "hono.js"];
 const results = [];
 
 for (const file of servers) {

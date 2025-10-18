@@ -15,6 +15,8 @@
 
 ---
 
+**Synphony** outperforms **Koa by 44%**, **Hono by 42%**, **Express by 302%**, and stays slightly ahead of **Fastify by 3%**, demonstrating that it combines speed and stability at the highest level. 
+
 **Synphony** is a **TypeScript** framework for creating **HTTP** and **WebSocket** servers under a single API.
 Designed to be **lightweight, modular, and expressive**, Synphony doesn’t hide complexity — it organizes it.
 

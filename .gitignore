@@ -1,34 +1,43 @@
-# dependencies (bun install)
-node_modules
-
-# output
-out
-dist
+node_modules/
+bun.lock
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+dist/
+out/
+build/
+lib/
 *.tgz
-
-# code coverage
-coverage
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+coverage/
 *.lcov
-
-# logs
-logs
-_.log
-report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
-
-# dotenv environment variable files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 .env
+.env.local
 .env.development.local
 .env.test.local
 .env.production.local
-.env.local
-
-# caches
+.cache/
 .eslintcache
-.cache
-*.tsbuildinfo
-
-# IntelliJ based IDEs
-.idea
-
-# Finder (MacOS) folder config
+.npm/
+.pnpm-store/
+.tmp/
+.temp/
+.idea/
+.vscode/
+*.swp
+*.swo
 .DS_Store
+Thumbs.db
+Desktop.ini
+test-results/
+.nyc_output/
+.husky/_/
+.prettier-cache/
+eslint-report.json
