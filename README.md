@@ -1,7 +1,7 @@
 ![Synphony Logo](./misc/banner.svg)
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
-[![Build](https://img.shields.io/github/actions/workflow/status/kkokotero/synphony/ci.yml)](https://github.com/kkokotero/synphony/actions)
+[![Build](https://img.shields.io/github/actions/workflow/status/kkokotero/synphony/build-and-test.yml)](https://github.com/kkokotero/synphony/actions)
 [![Stars](https://img.shields.io/github/stars/kkokotero/synphony?style=social)](https://github.com/kkokotero/synphony)
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/kkokotero/synphony)](https://github.com/kkokotero/synphony/pulse)
 [![GitHub last commit](https://img.shields.io/github/last-commit/kkokotero/synphony)](https://github.com/kkokotero/synphony/commits/main)
