@@ -1,6 +1,6 @@
 {
 	"name": "synphony",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Synphony is a TypeScript framework for creating HTTP and WebSocket servers under a single API.",
 	"type": "module",
 	"private": false,
@@ -16,7 +16,7 @@
 		"app",
 		"api",
 		"open",
-		"json",
+		"cjson",
 		"schema",
 		"framework"
 	],
@@ -48,39 +48,44 @@
 	"engines": {
 		"node": ">=18"
 	},
-	"main": "./dist/index.js",
-	"module": "./dist/index.js",
-	"types": "./dist/index.d.ts",
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.cjs",
+	"types": "./dist/index.d.cts",
 	"exports": {
+		".": {
+			"import": "./dist/index.cjs",
+			"require": "./dist/index.cjs",
+			"types": "./dist/index.d.cts"
+		},
 		"./ws": {
-			"import": "./dist/ws/index.js",
-			"require": "./dist/ws/index.js",
-			"types": "./dist/ws/index.d.ts"
+			"import": "./dist/ws/index.cjs",
+			"require": "./dist/ws/index.cjs",
+			"types": "./dist/ws/index.d.cts"
 		},
 		"./plugins": {
-			"import": "./dist/plugins/index.js",
-			"require": "./dist/plugins/index.js",
-			"types": "./dist/plugins/index.d.ts"
+			"import": "./dist/plugins/index.cjs",
+			"require": "./dist/plugins/index.cjs",
+			"types": "./dist/plugins/index.d.cts"
 		},
 		"./http": {
-			"import": "./dist/http/index.js",
-			"require": "./dist/http/index.js",
-			"types": "./dist/http/index.d.ts"
+			"import": "./dist/http/index.cjs",
+			"require": "./dist/http/index.cjs",
+			"types": "./dist/http/index.d.cts"
 		},
 		"./core": {
-			"import": "./dist/core/index.js",
-			"require": "./dist/core/index.js",
-			"types": "./dist/core/index.d.ts"
+			"import": "./dist/core/index.cjs",
+			"require": "./dist/core/index.cjs",
+			"types": "./dist/core/index.d.cts"
 		},
 		"./routing": {
-			"import": "./dist/routing/index.js",
-			"require": "./dist/routing/index.js",
-			"types": "./dist/routing/index.d.ts"
+			"import": "./dist/routing/index.cjs",
+			"require": "./dist/routing/index.cjs",
+			"types": "./dist/routing/index.d.cts"
 		},
 		"./types": {
-			"import": "./dist/index.d.ts",
-			"require": "./dist/index.d.ts",
-			"types": "./dist/index.d.ts"
+			"import": "./dist/types.d.cts",
+			"require": "./dist/types.d.cts",
+			"types": "./dist/types.d.cts"
 		}
 	},
 	"scripts": {
@@ -94,7 +99,7 @@
 		"prepublishOnly": "npm run lint && npm run build && npm run typecheck"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.1.1",
+		"@biomecjs/biome": "2.1.1",
 		"@types/mime-types": "^3.0.1",
 		"@types/node": "^24.7.2",
 		"@types/signale": "^1.4.7",
