@@ -5,9 +5,9 @@ import type {
 } from 'node:http';
 import { createReadStream, existsSync, statSync } from 'node:fs';
 import { extname } from 'node:path';
-import { lookup as mimeLookup } from 'mime-types';
 import type { ContentType } from './types/content-type';
 import type { Server } from './server';
+import mime from 'mime';
 
 /**
  * Options for setting cookies in the response.
@@ -114,7 +114,7 @@ export class Response {
 	 * @returns The corresponding MIME type or 'application/octet-stream'.
 	 */
 	getContentType(path: string): ContentType {
-		return (mimeLookup(extname(path)) ||
+		return (mime.getType(extname(path)) ||
 			'application/octet-stream') as ContentType;
 	}
 

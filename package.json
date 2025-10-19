@@ -106,6 +106,7 @@
 		"@types/ws": "^8.18.1",
 		"@vitest/ui": "3.2.4",
 		"all-contributors-cli": "^6.26.1",
+		"mime": "^4.1.0",
 		"standard-version": "^9.5.0",
 		"tsup": "^8.5.0",
 		"typescript": "^5.9.3",
@@ -113,8 +114,10 @@
 		"vitest": "^3.2.4"
 	},
 	"dependencies": {
-		"signale": "^1.4.0",
-		"mime-types": "^3.0.1",
 		"ws": "^8.18.3"
+	},
+	"optionalDependencies": {
+		"bufferutil": "^4.0.9",
+		"utf-8-validate": "^6.0.5"
 	}
 }

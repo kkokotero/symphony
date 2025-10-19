@@ -10,7 +10,7 @@ export default defineConfig([
 		clean: true,
 		target: 'esnext',
 		outDir: 'dist',
-		external: [...builtinModules, 'ws', 'mime-types', 'signale'],
+		external: [...builtinModules, 'ws'],
 		shims: true,
 		bundle: true,
 		dts: true,
