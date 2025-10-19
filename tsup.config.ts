@@ -4,13 +4,13 @@ import { defineConfig } from 'tsup';
 export default defineConfig([
 	{
 		entry: ['./src/**/*.ts'],
-		format: ['cjs'],
+		format: ['esm'],
 		splitting: true,
 		minify: true,
 		clean: true,
 		target: 'esnext',
 		outDir: 'dist',
-		external: [...builtinModules],
+		external: [...builtinModules, 'ws', 'mime-types', 'signale'],
 		shims: true,
 		bundle: true,
 		dts: true,

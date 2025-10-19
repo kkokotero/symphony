@@ -1,7 +1,7 @@
 import { promises as fs } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import type { Server } from '@src/http';
-import { DEFAULT_TEMP_PATH, type Plugin } from '@src/types';
+import { DEFAULT_TEMP_PATH, type Plugin } from '@src/index';
 import { CustomLogger } from '@core/utils/logger';
 
 interface LoggerPluginOptions {

@@ -1,4 +1,3 @@
-import { resolve } from 'node:path';
 import type { Request } from './http/request';
 import type { Response } from './http/response';
 import type { Socket } from './ws/socket';
@@ -139,12 +138,6 @@ export type WSController = (
  * @returns A value or a Promise of unknown type.
  */
 export type Plugin<T> = (plugin: T) => MaybePromise<unknown>;
-
-/**
- * Default temporary folder path used by the framework
- * for storing runtime data, cache, or temporary files.
- */
-export const DEFAULT_TEMP_PATH = resolve(process.cwd(), '.synphony');
 
 /**
  * Aliases for controller types to improve semantic readability.

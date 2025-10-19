@@ -16,11 +16,11 @@
 		"app",
 		"api",
 		"open",
-		"cjson",
+		"json",
 		"schema",
 		"framework"
 	],
-	"sideEffects": false,
+	"sideEffets": false,
 	"publishConfig": {
 		"access": "public"
 	},
@@ -48,44 +48,44 @@
 	"engines": {
 		"node": ">=18"
 	},
-	"main": "./dist/index.cjs",
-	"module": "./dist/index.cjs",
-	"types": "./dist/index.d.cts",
+	"main": "./dist/index.js",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
 	"exports": {
 		".": {
-			"import": "./dist/index.cjs",
-			"require": "./dist/index.cjs",
-			"types": "./dist/index.d.cts"
+			"import": "./dist/index.js",
+			"require": "./dist/index.js",
+			"types": "./dist/index.d.ts"
 		},
 		"./ws": {
-			"import": "./dist/ws/index.cjs",
-			"require": "./dist/ws/index.cjs",
-			"types": "./dist/ws/index.d.cts"
+			"import": "./dist/ws/index.js",
+			"require": "./dist/ws/index.js",
+			"types": "./dist/ws/index.d.ts"
 		},
 		"./plugins": {
-			"import": "./dist/plugins/index.cjs",
-			"require": "./dist/plugins/index.cjs",
-			"types": "./dist/plugins/index.d.cts"
+			"import": "./dist/plugins/index.js",
+			"require": "./dist/plugins/index.js",
+			"types": "./dist/plugins/index.d.ts"
 		},
 		"./http": {
-			"import": "./dist/http/index.cjs",
-			"require": "./dist/http/index.cjs",
-			"types": "./dist/http/index.d.cts"
+			"import": "./dist/http/index.js",
+			"require": "./dist/http/index.js",
+			"types": "./dist/http/index.d.ts"
 		},
 		"./core": {
-			"import": "./dist/core/index.cjs",
-			"require": "./dist/core/index.cjs",
-			"types": "./dist/core/index.d.cts"
+			"import": "./dist/core/index.js",
+			"require": "./dist/core/index.js",
+			"types": "./dist/core/index.d.ts"
 		},
 		"./routing": {
-			"import": "./dist/routing/index.cjs",
-			"require": "./dist/routing/index.cjs",
-			"types": "./dist/routing/index.d.cts"
+			"import": "./dist/routing/index.js",
+			"require": "./dist/routing/index.js",
+			"types": "./dist/routing/index.d.ts"
 		},
 		"./types": {
-			"import": "./dist/types.d.cts",
-			"require": "./dist/types.d.cts",
-			"types": "./dist/types.d.cts"
+			"import": "./dist/types.d.ts",
+			"require": "./dist/types.d.ts",
+			"types": "./dist/types.d.ts"
 		}
 	},
 	"scripts": {
@@ -99,21 +99,22 @@
 		"prepublishOnly": "npm run lint && npm run build && npm run typecheck"
 	},
 	"devDependencies": {
-		"@biomecjs/biome": "2.1.1",
+		"@biomejs/biome": "2.1.1",
 		"@types/mime-types": "^3.0.1",
 		"@types/node": "^24.7.2",
 		"@types/signale": "^1.4.7",
 		"@types/ws": "^8.18.1",
 		"@vitest/ui": "3.2.4",
 		"all-contributors-cli": "^6.26.1",
-		"mime-types": "^3.0.1",
-		"selfsigned": "^3.0.1",
-		"signale": "^1.4.0",
 		"standard-version": "^9.5.0",
 		"tsup": "^8.5.0",
 		"typescript": "^5.9.3",
 		"undici": "^7.16.0",
-		"vitest": "^3.2.4",
+		"vitest": "^3.2.4"
+	},
+	"dependencies": {
+    "signale": "^1.4.0",
+		"mime-types": "^3.0.1",
 		"ws": "^8.18.3"
 	}
 }
