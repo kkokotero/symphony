@@ -1,6 +1,6 @@
 {
 	"name": "synphony",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Synphony is a TypeScript framework for creating HTTP and WebSocket servers under a single API.",
 	"type": "module",
 	"private": false,
@@ -113,7 +113,7 @@
 		"vitest": "^3.2.4"
 	},
 	"dependencies": {
-    "signale": "^1.4.0",
+		"signale": "^1.4.0",
 		"mime-types": "^3.0.1",
 		"ws": "^8.18.3"
 	}
