@@ -99,7 +99,7 @@
 		"prepublishOnly": "npm run lint && npm run build && npm run typecheck"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.2.6",
+		"@biomejs/biome": "2.3.8",
 		"@types/mime-types": "^3.0.1",
 		"@types/node": "^24.7.2",
 		"@types/signale": "^1.4.7",
