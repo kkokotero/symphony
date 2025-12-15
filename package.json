@@ -101,7 +101,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "2.2.6",
 		"@types/mime-types": "^3.0.1",
-		"@types/node": "^24.7.2",
+		"@types/node": "^25.0.2",
 		"@types/signale": "^1.4.7",
 		"@types/ws": "^8.18.1",
 		"@vitest/ui": "3.2.4",
