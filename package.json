@@ -104,7 +104,7 @@
 		"@types/node": "^24.7.2",
 		"@types/signale": "^1.4.7",
 		"@types/ws": "^8.18.1",
-		"@vitest/ui": "3.2.4",
+		"@vitest/ui": "4.0.16",
 		"all-contributors-cli": "^6.26.1",
 		"mime": "^4.1.0",
 		"standard-version": "^9.5.0",
